@@ -2751,7 +2751,8 @@ onTitleClick(selectedOption) {
       }
     }
     min = min * 1000;
-    var str ="Најблискиот контејнер за рециклирање стакло е на оддалеченост од "+ parseInt(min.toString()) + " m";
+    var str = "Селектирана опција: СТАКЛО<br>"
+    str +="Најблискиот контејнер за рециклирање стакло е на оддалеченост од "+ parseInt(min.toString()) + " m";
     this.text1 = str;
     for (var i = 0; i < this.markers_coordinates.length + 1; i++) {
       //console.log(this.markers_coordinates[i].name);
@@ -2828,7 +2829,8 @@ onTitleClick(selectedOption) {
       }
     }
     min = min * 1000
-    var str ="Најблискиот контејнер за рециклирање пластика е на оддалеченост од "+ parseInt(min.toString()) + " m";
+    var str = "Селектирана опција: ПЛАСТИКА<br>"
+    str +="Најблискиот контејнер за рециклирање пластика е на оддалеченост од "+ parseInt(min.toString()) + " m";
     this.text1 = str;
     for (var i = 0; i < this.markers_coordinates.length + 1; i++) {
       //console.log(this.markers_coordinates[i].name);
@@ -2905,7 +2907,8 @@ onTitleClick(selectedOption) {
     }
     min = min * 1000;
 
-    var str ="Најблискиот контејнер за рециклирање хартија е на оддалеченост од "+ parseInt(min.toString()) + " m";
+    var str = "Селектирана опција: ХАРТИЈА <br>"
+    str +="Најблискиот контејнер за рециклирање хартија е на оддалеченост од "+ parseInt(min.toString()) + " m";
     this.text1 = str;
     for (var i = 0; i < this.markers_coordinates.length + 1; i++) {
       //console.log(this.markers_coordinates[i].name);
